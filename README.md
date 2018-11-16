@@ -2,7 +2,7 @@
 
 This repo is modified from [ORIGINAL PYTORCH IMPLEMENTATION](https://github.com/huggingface/pytorch-openai-transformer-lm) to make it work for classification task.
 
-##Procedure:
+## Procedure:
 
 1. Download the pre-trained model file and unzip to model folder
 2. To reproduce the classificatio result in original paper, you can diectly run it by 
@@ -14,6 +14,11 @@ to get
 >SST-2 Valid Accuracy: 92.43
 >
 >SST-2 Test Accuracy:  91.38
+
+
+
+
+
 
 
 This is a PyTorch implementation of the [TensorFlow code](https://github.com/openai/finetune-transformer-lm) provided with OpenAI's paper ["Improving Language Understanding by Generative Pre-Training"](https://blog.openai.com/language-unsupervised/) by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
