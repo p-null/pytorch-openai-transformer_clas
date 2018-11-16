@@ -16,9 +16,7 @@ to get
 >SST-2 Test Accuracy:  91.38
 
 
-
-
-
+## Origianl README
 
 
 This is a PyTorch implementation of the [TensorFlow code](https://github.com/openai/finetune-transformer-lm) provided with OpenAI's paper ["Improving Language Understanding by Generative Pre-Training"](https://blog.openai.com/language-unsupervised/) by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
