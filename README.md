@@ -2,8 +2,10 @@
 
 This repo is modified from [ORIGINAL PYTORCH IMPLEMENTATION](https://github.com/huggingface/pytorch-openai-transformer-lm) to make it work for classification task.
 
+##Procedure:
+
 1. Download the pre-trained model file and unzip to model folder
-2. I already add the data directory so you can diectly run it by 
+2. To reproduce the classificatio result in original paper, you can diectly run it by 
 
 `python train.py`
 
