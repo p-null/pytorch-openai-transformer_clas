@@ -1,8 +1,9 @@
 # PyTorch implementation of OpenAI's Finetuned Transformer Language Model
 
-THIS REPO IS MODIFIED FROM THE [ORIGINAL PYTORCH IMPLEMENTATION](https://github.com/huggingface/pytorch-openai-transformer-lm) TO MAKE IT WORK FOR CLASSIFICATION TASK
+This repo is modified from [ORIGINAL PYTORCH IMPLEMENTATION](https://github.com/huggingface/pytorch-openai-transformer-lm) to make it work for classification task.
 
-Already add the data directory so you can diectly run it by 
+1. Download the pre-trained model file and unzip to model folder
+2. I already add the data directory so you can diectly run it by 
 
 `python train.py`
 
