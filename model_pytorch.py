@@ -310,6 +310,7 @@ class DoubleHeadModel(nn.Module):
         # h: torch.float32, torch.Size([4, 257, 768])
         lm_logits = self.lm_head(h)  # [1024,40737]
         # lm_logits: torch.float32, torch.Size([1024, 40737])
+        sum = torch.sum((x!=0), dim=1)
         task_logits = self.task_head(h, x)  # [4,2]
         # task_logits: torch.Size([4, 2])
         return lm_logits, task_logits

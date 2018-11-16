@@ -110,8 +110,9 @@ def predict(dataset, submission_dir):
 
 
 def run_epoch():
-    for xmb, mmb, ymb in iter_data(*shuffle(trX, trM, trYt, random_state=np.random),
+    for xmb, mmb, ymb in iter_data(*(trX, trM, trYt),
                                    n_batch=n_batch_train, truncate=True, verbose=True):
+        #shuffle , random_state=np.random
         global n_updates
         dh_model.train()
         XMB = torch.tensor(xmb, dtype=torch.long).to(device)  # torch.Size([4,257,2])
