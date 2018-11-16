@@ -4,7 +4,7 @@ This repo is modified from [ORIGINAL PYTORCH IMPLEMENTATION](https://github.com/
 
 ## Procedure:
 
-1. (Download the pre-trained model)[https://github.com/openai/finetune-transformer-lm/tree/master/model] files to model folder
+1. [Download the pre-trained model](https://github.com/openai/finetune-transformer-lm/tree/master/model) files to model folder
 2. To reproduce the classificatio result in original paper, you can diectly run it by 
 
 `python train.py`
